@@ -56,7 +56,7 @@ export const story = {
   },
 
   ajuste: {
-    text: "Corriges algunas funciones mientras los usuarios comentan. Tienes algo de tracción, pero no es claro el rumbo.",
+    text: "Corriges algunas funciones mientras los usuarios comentan. Tienes algo de tracción, pero no es claro el rumbo. ¿Qué haces?",
     choices: [
       { text: "Pivotar con base en feedback", next: "pivot_exitoso" },
       { text: "Seguir con lo que tienes sin grandes cambios", next: "estancado_lento" }
@@ -65,7 +65,7 @@ export const story = {
 
   // Finales
   descartado: {
-    text: "Descartas la idea. Consideraste que ya hay suficientes soluciones parecidas.",
+    text: "Descartas la idea. Consideraste que ya hay suficientes soluciones parecidas y que las actuales podrían adelantarse a implementar blockchain o alguna integración.",
     choices: []
   },
 
